@@ -7,6 +7,7 @@ Tested with django 1.2 and python2.6.
 
 ### Instalation
 Register your app and get a key in [LastFM API page](http://www.last.fm/api/)
+Set the callback url to http://your-domain/login_complete/
 
 Add to your settings.py:
 
