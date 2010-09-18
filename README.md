@@ -29,3 +29,11 @@ Add to your urls.py:
     ...
     (r'^lastfmauth/', include('lastfmauth.urls')),
     ...
+
+### Usage
+Put somewhere in your templates a link to let visitors login using LastFM:
+
+    <a href="{% url lastfmauth_login %}">{% trans 'Login using your LastFm account' %}</a>
+
+### License
+This work is under MIT License.
