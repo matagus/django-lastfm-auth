@@ -6,7 +6,7 @@ So far this is a very alpha app and it need some more work to be complete.
 Tested with django 1.2 and python2.6.
 
 ### Instalation
-Register your app and get a key in [LastFM API page] (http://www.last.fm/api/)
+Register your app and get a key in [LastFM API page](http://www.last.fm/api/)
 
 Add to your settings.py:
 
