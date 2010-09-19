@@ -1,6 +1,12 @@
 ## lastfmauth app for django projects
 
-So far this is a very alpha app and it need some more work to be complete.
+Last.fm 2.0 API provides an authentication webservice. It works the same way Facebook Connect does,
+but with Last.fm user credentials. Last.Fm will do the login and ask him permission to
+your application to do it. Then, it will redirect the user to your website (you can set the callback url,
+please see bellow).
+
+So far, this app does all this job, but it needs some more work.
+
 
 ### Requirements
 Tested with django 1.2 and python2.6.
@@ -38,6 +44,10 @@ Add to your urls.py:
     ...
     (r'^lastfmauth/', include('lastfmauth.urls')),
     ...
+
+Create app tables in your database:
+
+    python manage.py syncdb
 
 ### Usage
 Put somewhere in your templates a link to let visitors login using LastFM:
