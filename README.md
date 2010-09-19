@@ -9,6 +9,14 @@ Tested with django 1.2 and python2.6.
 Register your app and get a key in [LastFM API page](http://www.last.fm/api/)
 Set the callback url to http://your-domain/login_complete/
 
+Then download and install lastfmauth app: 
+
+    pip install -E path/to/your/env/ django-lastfmauth
+
+or 
+
+    easy_install django-lastfmauth
+
 Add to your settings.py:
 
     INSTALLED_APPS = (
