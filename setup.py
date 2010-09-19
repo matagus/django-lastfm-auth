@@ -7,7 +7,7 @@ setup(
     url="http://github.com/matagus/django-lastfm-auth",
     license="BSD",
     description="Django app to let your website visitors register/login using LastFM authentication webservice.",
-    long_description=open("README.md").read(),
+    long_description=open("docs/usage.rst").read(),
 
     author="Matias Agustin Mendez",
     author_email="me@matagus.com.ar",
